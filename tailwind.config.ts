@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,11 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// CareerCatalyst brand colors
+				'career-navy': '#0D47A1',
+				'mentor-gold': '#FFC107',
+				'neutral-gray': '#F5F5F5'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -89,6 +94,10 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				'work-sans': ['Work Sans', 'sans-serif'],
+				'ibm-mono': ['IBM Plex Mono', 'monospace']
 			}
 		}
 	},
